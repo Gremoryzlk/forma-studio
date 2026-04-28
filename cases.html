@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Кейсы FORMA Studio — UI/UX дизайн, брендинг и дизайн-системы для технологических компаний. Посмотрите наши работы.">
+  <meta property="og:title" content="Кейсы — FORMA Studio">
+  <meta property="og:description" content="Избранные проекты студии дизайна FORMA: брендинг, интерфейсы, дизайн-системы.">
+  <meta name="theme-color" content="#080706">
+  <title>Кейсы — FORMA Studio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div id="cursor-dot"></div>
+  <div id="cursor-ring"></div>
+
+  <nav class="nav" role="navigation" aria-label="Главное меню">
+    <div class="container">
+      <div class="nav__inner">
+        <a href="index.html" class="nav__logo">FORMA <span></span></a>
+        <ul class="nav__links" role="list">
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="cases.html">Кейсы</a></li>
+          <li><a href="services.html">Услуги</a></li>
+          <li><a href="about.html">О студии</a></li>
+          <li><a href="contact.html">Контакты</a></li>
+        </ul>
+        <a href="contact.html" class="btn btn--ghost nav__cta">Обсудить проект</a>
+        <button class="nav__burger" aria-label="Меню"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="nav__mobile" role="dialog">
+    <a href="index.html">Главная</a>
+    <a href="cases.html">Кейсы</a>
+    <a href="services.html">Услуги</a>
+    <a href="about.html">О студии</a>
+    <a href="contact.html">Контакты</a>
+  </div>
+
+  <main>
+    <!-- Page Hero -->
+    <section class="page-hero">
+      <div class="container">
+        <div class="page-hero__label section__label">
+          <span class="label label--accent">Наши работы</span>
+        </div>
+        <h1 class="display" style="max-width:800px">
+          Кейсы,<br>которые<br><em>работают.</em>
+        </h1>
+        <p class="section__subtitle" style="margin-top:2rem; max-width:560px">
+          Каждый проект — это история диалога между бизнесом и дизайном.
+          Здесь — только результаты, которыми мы гордимся.
+        </p>
+      </div>
+    </section>
+
+    <!-- Filter bar -->
+    <div style="border-bottom:1px solid var(--border); padding: 1.25rem 0;">
+      <div class="container">
+        <div style="display:flex; gap:.75rem; flex-wrap:wrap;" role="group" aria-label="Фильтр кейсов">
+          <button class="tag tag--accent filter-btn active" data-filter="all" style="cursor:pointer; border:none; background:var(--accent-dim); font-family:'Syne',sans-serif;">Все</button>
+          <button class="tag filter-btn" data-filter="branding" style="cursor:pointer; border:none; background:none; font-family:'Syne',sans-serif;">Брендинг</button>
+          <button class="tag filter-btn" data-filter="uiux" style="cursor:pointer; border:none; background:none; font-family:'Syne',sans-serif;">UI/UX</button>
+          <button class="tag filter-btn" data-filter="system" style="cursor:pointer; border:none; background:none; font-family:'Syne',sans-serif;">Дизайн-система</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cases Grid -->
+    <section style="padding: clamp(3rem,6vw,6rem) 0;" aria-label="Кейсы студии">
+      <div class="container">
+        <div class="cases-grid" id="casesGrid">
+
+          <!-- Case 1 -->
+          <article class="case-item reveal" data-case-id="1" data-category="branding uiux" role="button" tabindex="0" aria-label="Кейс Neolux">
+            <div class="case-item__visual">
+              <div class="case-item__visual-inner case-bg-1" style="width:100%;height:100%;display:flex;align-items:center;justify-content:center;">
+                <div class="case-pattern case-pattern-lines" style="position:absolute;inset:0;"></div>
+                <svg viewBox="0 0 280 220" fill="none" aria-hidden="true">
+                  <!-- Phone -->
+                  <rect x="80" y="6" width="120" height="208" rx="18" fill="rgba(8,7,6,.7)" stroke="rgba(201,168,76,.45)" stroke-width="1.5"/>
+                  <rect x="112" y="14" width="56" height="6" rx="3" fill="rgba(201,168,76,.15)"/>
+                  <!-- Brand mark -->
+                  <circle cx="140" cy="50" r="22" stroke="rgba(201,168,76,.5)" stroke-width="1.5"/>
+                  <circle cx="140" cy="50" r="12" stroke="rgba(201,168,76,.3)" stroke-width="1"/>
+                  <circle cx="140" cy="50" r="4" fill="rgba(201,168,76,.7)"/>
+                  <!-- Nav -->
+                  <rect x="93" y="84" width="44" height="5" rx="2" fill="rgba(201,168,76,.5)"/>
+                  <rect x="163" y="82" width="24" height="9" rx="4.5" fill="rgba(201,168,76,.2)"/>
+                  <!-- Palette row -->
+                  <rect x="93" y="102" width="18" height="18" rx="4" fill="rgba(201,168,76,.9)"/>
+                  <rect x="116" y="102" width="18" height="18" rx="4" fill="rgba(201,168,76,.55)"/>
+                  <rect x="139" y="102" width="18" height="18" rx="4" fill="rgba(201,168,76,.28)"/>
+                  <rect x="162" y="102" width="18" height="18" rx="4" fill="rgba(15,12,6,.9)" stroke="rgba(201,168,76,.2)" stroke-width="1"/>
+                  <!-- Type lines -->
+                  <rect x="93" y="132" width="80" height="6" rx="2" fill="rgba(201,168,76,.4)"/>
+                  <rect x="93" y="143" width="58" height="4" rx="2" fill="rgba(201,168,76,.2)"/>
+                  <rect x="93" y="152" width="68" height="3" rx="1.5" fill="rgba(201,168,76,.12)"/>
+                  <!-- Bottom nav -->
+                  <rect x="93" y="174" width="114" height="1" fill="rgba(201,168,76,.2)"/>
+                  <circle cx="120" cy="190" r="6" fill="rgba(201,168,76,.45)"/>
+                  <circle cx="140" cy="190" r="6" stroke="rgba(201,168,76,.22)" stroke-width="1" fill="none"/>
+                  <circle cx="160" cy="190" r="6" stroke="rgba(201,168,76,.22)" stroke-width="1" fill="none"/>
+                  <rect x="113" y="206" width="54" height="3" rx="1.5" fill="rgba(201,168,76,.18)"/>
+                  <!-- Side brand elements -->
+                  <circle cx="36" cy="110" r="26" stroke="rgba(201,168,76,.2)" stroke-width="1"/>
+                  <circle cx="36" cy="110" r="14" stroke="rgba(201,168,76,.12)" stroke-width="1"/>
+                  <circle cx="36" cy="110" r="4" fill="rgba(201,168,76,.3)"/>
+                  <rect x="222" y="80" width="36" height="6" rx="2" fill="rgba(201,168,76,.35)"/>
+                  <rect x="222" y="92" width="26" height="4" rx="2" fill="rgba(201,168,76,.18)"/>
+                  <rect x="222" y="101" width="30" height="3" rx="1.5" fill="rgba(201,168,76,.12)"/>
+                  <rect x="222" y="114" width="36" height="1" fill="rgba(201,168,76,.15)"/>
+                  <rect x="222" y="122" width="28" height="18" rx="5" fill="rgba(201,168,76,.12)" stroke="rgba(201,168,76,.25)" stroke-width="1"/>
+                </svg>
+              </div>
+              <div class="case-item__overlay">
+                <div class="case-item__view">
+                  <div class="case-view-icon">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M2 14L14 2M14 2H5M14 2v9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+                  </div>
+                  Открыть кейс
+                </div>
+              </div>
+            </div>
+            <div class="case-item__body">
+              <div class="case-item__meta">
+                <div class="case-item__index">01 · 2024</div>
+                <h2 class="case-item__name">Neolux</h2>
+                <p style="font-size:.85rem; color:var(--text-muted);">Ребрендинг технологического стартапа</p>
+                <div class="case-item__tags">
+                  <span class="case-tag">Брендинг</span>
+                  <span class="case-tag">UI/UX</span>
+                  <span class="case-tag">Айдентика</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Case 2 -->
+          <article class="case-item reveal reveal-delay-1" data-case-id="2" data-category="uiux" role="button" tabindex="0" aria-label="Кейс Vesta">
+            <div class="case-item__visual">
+              <div class="case-item__visual-inner case-bg-2" style="width:100%;height:100%;display:flex;align-items:center;justify-content:center;">
+                <div class="case-pattern case-pattern-dots" style="position:absolute;inset:0;"></div>
+                <svg viewBox="0 0 280 220" fill="none"  aria-hidden="true">
+                  <!-- Phone frame -->
+                  <rect x="80" y="4" width="120" height="212" rx="18" fill="rgba(8,7,6,.7)" stroke="rgba(62,232,160,.4)" stroke-width="1.5"/>
+                  <rect x="112" y="12" width="56" height="6" rx="3" fill="rgba(62,232,160,.12)"/>
+                  <!-- Header -->
+                  <rect x="93" y="26" width="52" height="6" rx="2" fill="rgba(62,232,160,.5)"/>
+                  <rect x="167" y="24" width="20" height="9" rx="4.5" fill="rgba(62,232,160,.2)"/>
+                  <!-- Progress -->
+                  <rect x="93" y="44" width="114" height="4" rx="2" fill="rgba(62,232,160,.1)"/>
+                  <rect x="93" y="44" width="72" height="4" rx="2" fill="rgba(62,232,160,.55)"/>
+                  <!-- Tasks -->
+                  <rect x="93" y="58" width="114" height="26" rx="6" fill="rgba(62,232,160,.07)" stroke="rgba(62,232,160,.25)" stroke-width="1"/>
+                  <rect x="101" y="67" width="10" height="10" rx="3" fill="rgba(62,232,160,.55)"/>
+                  <line x1="103.5" y1="72" x2="106" y2="75" stroke="rgba(8,7,6,.9)" stroke-width="1.5" stroke-linecap="round"/>
+                  <line x1="106" y1="75" x2="110" y2="69" stroke="rgba(8,7,6,.9)" stroke-width="1.5" stroke-linecap="round"/>
+                  <rect x="118" y="67" width="56" height="4" rx="2" fill="rgba(62,232,160,.28)"/>
+                  <rect x="118" y="76" width="36" height="3" rx="1.5" fill="rgba(62,232,160,.15)"/>
+                  <rect x="183" y="69" width="16" height="6" rx="3" fill="rgba(62,232,160,.15)"/>
+
+                  <rect x="93" y="92" width="114" height="26" rx="6" fill="rgba(62,232,160,.04)" stroke="rgba(62,232,160,.4)" stroke-width="1"/>
+                  <rect x="101" y="101" width="10" height="10" rx="3" stroke="rgba(62,232,160,.5)" stroke-width="1.5" fill="none"/>
+                  <rect x="118" y="101" width="66" height="4" rx="2" fill="rgba(62,232,160,.42)"/>
+                  <rect x="118" y="110" width="42" height="3" rx="1.5" fill="rgba(62,232,160,.2)"/>
+                  <rect x="181" y="103" width="18" height="6" rx="3" fill="rgba(62,232,160,.18)" stroke="rgba(62,232,160,.35)" stroke-width="1"/>
+
+                  <rect x="93" y="126" width="114" height="26" rx="6" fill="rgba(62,232,160,.03)" stroke="rgba(62,232,160,.18)" stroke-width="1"/>
+                  <rect x="101" y="135" width="10" height="10" rx="3" stroke="rgba(62,232,160,.3)" stroke-width="1.5" fill="none"/>
+                  <rect x="118" y="135" width="50" height="4" rx="2" fill="rgba(62,232,160,.3)"/>
+                  <rect x="118" y="144" width="32" height="3" rx="1.5" fill="rgba(62,232,160,.12)"/>
+
+                  <rect x="93" y="160" width="114" height="26" rx="6" fill="rgba(62,232,160,.02)" stroke="rgba(62,232,160,.1)" stroke-width="1"/>
+                  <rect x="101" y="169" width="10" height="10" rx="3" stroke="rgba(62,232,160,.2)" stroke-width="1.5" fill="none"/>
+                  <rect x="118" y="169" width="44" height="4" rx="2" fill="rgba(62,232,160,.18)"/>
+                  <rect x="118" y="178" width="28" height="3" rx="1.5" fill="rgba(62,232,160,.1)"/>
+                  <!-- Bottom -->
+                  <rect x="93" y="196" width="114" height="1" fill="rgba(62,232,160,.15)"/>
+                  <rect x="113" y="206" width="54" height="4" rx="2" fill="rgba(62,232,160,.12)"/>
+                </svg>
+              </div>
+              <div class="case-item__overlay">
+                <div class="case-item__view">
+                  <div class="case-view-icon">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M2 14L14 2M14 2H5M14 2v9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+                  </div>
+                  Открыть кейс
+                </div>
+              </div>
+            </div>
+            <div class="case-item__body">
+              <div class="case-item__meta">
+                <div class="case-item__index">02 · 2024</div>
+                <h2 class="case-item__name">Vesta</h2>
+                <p style="font-size:.85rem; color:var(--text-muted);">Мобильное приложение для задач</p>
+                <div class="case-item__tags">
+                  <span class="case-tag">UI/UX</span>
+                  <span class="case-tag">Мобайл</span>
+                  <span class="case-tag">Прототип</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Case 3 -->
+          <article class="case-item reveal" data-case-id="3" data-category="system" role="button" tabindex="0" aria-label="Кейс Arvid">
+            <div class="case-item__visual">
+              <div class="case-item__visual-inner case-bg-3" style="width:100%;height:100%;display:flex;align-items:center;justify-content:center;">
+                <div class="case-pattern case-pattern-grid" style="position:absolute;inset:0;"></div>
+                <svg viewBox="0 0 280 220" fill="none"  aria-hidden="true">
+                  <!-- Browser window -->
+                  <rect x="14" y="8" width="252" height="204" rx="10" fill="rgba(8,7,6,.65)" stroke="rgba(62,160,232,.35)" stroke-width="1"/>
+                  <rect x="14" y="8" width="252" height="26" rx="10" fill="rgba(62,160,232,.07)"/>
+                  <rect x="14" y="26" width="252" height="8" fill="rgba(62,160,232,.07)"/>
+                  <circle cx="30" cy="21" r="4" fill="rgba(232,80,80,.4)"/>
+                  <circle cx="44" cy="21" r="4" fill="rgba(232,200,60,.4)"/>
+                  <circle cx="58" cy="21" r="4" fill="rgba(60,200,100,.4)"/>
+                  <rect x="86" y="17" width="90" height="8" rx="4" fill="rgba(62,160,232,.12)"/>
+                  <!-- Buttons section -->
+                  <rect x="26" y="46" width="36" height="4" rx="2" fill="rgba(62,160,232,.4)"/>
+                  <rect x="26" y="57" width="54" height="14" rx="5" fill="rgba(62,160,232,.65)"/>
+                  <rect x="28" y="62" width="50" height="4" rx="2" fill="rgba(8,7,6,.6)"/>
+                  <rect x="86" y="57" width="54" height="14" rx="5" fill="none" stroke="rgba(62,160,232,.55)" stroke-width="1"/>
+                  <rect x="88" y="62" width="50" height="4" rx="2" fill="rgba(62,160,232,.42)"/>
+                  <rect x="146" y="57" width="54" height="14" rx="5" fill="rgba(62,160,232,.1)"/>
+                  <rect x="148" y="62" width="50" height="4" rx="2" fill="rgba(62,160,232,.32)"/>
+                  <!-- Input section -->
+                  <rect x="26" y="84" width="32" height="4" rx="2" fill="rgba(62,160,232,.32)"/>
+                  <rect x="26" y="94" width="224" height="18" rx="6" fill="rgba(62,160,232,.05)" stroke="rgba(62,160,232,.38)" stroke-width="1"/>
+                  <rect x="34" y="101" width="90" height="4" rx="2" fill="rgba(62,160,232,.18)"/>
+                  <circle cx="238" cy="103" r="5" stroke="rgba(62,160,232,.3)" stroke-width="1" fill="none"/>
+                  <!-- Colors section -->
+                  <rect x="26" y="126" width="40" height="4" rx="2" fill="rgba(62,160,232,.32)"/>
+                  <rect x="26" y="137" width="26" height="26" rx="5" fill="rgba(62,160,232,.9)"/>
+                  <rect x="58" y="137" width="26" height="26" rx="5" fill="rgba(62,160,232,.6)"/>
+                  <rect x="90" y="137" width="26" height="26" rx="5" fill="rgba(62,160,232,.35)"/>
+                  <rect x="122" y="137" width="26" height="26" rx="5" fill="rgba(62,160,232,.15)"/>
+                  <rect x="154" y="137" width="26" height="26" rx="5" fill="rgba(62,160,232,.06)" stroke="rgba(62,160,232,.2)" stroke-width="1"/>
+                  <rect x="186" y="137" width="26" height="26" rx="5" fill="rgba(8,7,6,.85)" stroke="rgba(62,160,232,.2)" stroke-width="1"/>
+                  <!-- Type scale -->
+                  <rect x="26" y="178" width="70" height="6" rx="2" fill="rgba(62,160,232,.5)"/>
+                  <rect x="26" y="190" width="48" height="4" rx="2" fill="rgba(62,160,232,.3)"/>
+                  <rect x="26" y="200" width="34" height="3" rx="1.5" fill="rgba(62,160,232,.18)"/>
+                  <rect x="120" y="178" width="1" height="32" fill="rgba(62,160,232,.15)"/>
+                  <rect x="132" y="180" width="56" height="4" rx="2" fill="rgba(62,160,232,.22)"/>
+                  <rect x="132" y="190" width="42" height="3" rx="1.5" fill="rgba(62,160,232,.14)"/>
+                  <rect x="132" y="200" width="50" height="3" rx="1.5" fill="rgba(62,160,232,.1)"/>
+                </svg>
+              </div>
+              <div class="case-item__overlay">
+                <div class="case-item__view">
+                  <div class="case-view-icon">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M2 14L14 2M14 2H5M14 2v9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+                  </div>
+                  Открыть кейс
+                </div>
+              </div>
+            </div>
+            <div class="case-item__body">
+              <div class="case-item__meta">
+                <div class="case-item__index">03 · 2023</div>
+                <h2 class="case-item__name">Arvid Commerce</h2>
+                <p style="font-size:.85rem; color:var(--text-muted);">Дизайн-система для e-commerce</p>
+                <div class="case-item__tags">
+                  <span class="case-tag">Дизайн-система</span>
+                  <span class="case-tag">Токены</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Case 4 -->
+          <article class="case-item reveal reveal-delay-1" data-case-id="4" data-category="branding" role="button" tabindex="0" aria-label="Кейс Кедр">
+            <div class="case-item__visual">
+              <div class="case-item__visual-inner case-bg-4" style="width:100%;height:100%;display:flex;align-items:center;justify-content:center;">
+                <div class="case-pattern case-pattern-lines" style="position:absolute;inset:0;"></div>
+                <svg viewBox="0 0 280 220" fill="none"  aria-hidden="true">
+                  <!-- Top decorative rule -->
+                  <line x1="56" y1="22" x2="224" y2="22" stroke="rgba(201,120,76,.35)" stroke-width="1"/>
+                  <circle cx="140" cy="22" r="3" fill="rgba(201,120,76,.5)"/>
+                  <!-- Cedar tree mark -->
+                  <line x1="140" y1="36" x2="140" y2="92" stroke="rgba(201,120,76,.5)" stroke-width="1.5" stroke-linecap="round"/>
+                  <path d="M116 58 Q140 46 164 58" stroke="rgba(201,120,76,.6)" stroke-width="2" fill="none" stroke-linecap="round"/>
+                  <path d="M108 72 Q140 56 172 72" stroke="rgba(201,120,76,.5)" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+                  <path d="M100 86 Q140 66 180 86" stroke="rgba(201,120,76,.38)" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+                  <!-- Brand name type block -->
+                  <rect x="80" y="104" width="120" height="12" rx="2" fill="rgba(201,120,76,.55)"/>
+                  <rect x="100" y="122" width="80" height="5" rx="2" fill="rgba(201,120,76,.25)"/>
+                  <!-- Bottom rule -->
+                  <line x1="56" y1="140" x2="224" y2="140" stroke="rgba(201,120,76,.2)" stroke-width="1"/>
+                  <!-- Color palette -->
+                  <rect x="80" y="154" width="20" height="20" rx="4" fill="rgba(201,100,60,.8)"/>
+                  <rect x="106" y="154" width="20" height="20" rx="4" fill="rgba(180,140,80,.7)"/>
+                  <rect x="132" y="154" width="20" height="20" rx="4" fill="rgba(240,220,180,.6)"/>
+                  <rect x="158" y="154" width="20" height="20" rx="4" fill="rgba(30,22,14,.9)" stroke="rgba(201,120,76,.25)" stroke-width="1"/>
+                  <!-- Menu lines -->
+                  <rect x="56" y="186" width="168" height="1" fill="rgba(201,120,76,.2)"/>
+                  <rect x="80" y="196" width="52" height="4" rx="2" fill="rgba(201,120,76,.3)"/>
+                  <rect x="148" y="196" width="52" height="4" rx="2" fill="rgba(201,120,76,.3)"/>
+                  <rect x="80" y="205" width="36" height="3" rx="1.5" fill="rgba(201,120,76,.15)"/>
+                  <rect x="148" y="205" width="40" height="3" rx="1.5" fill="rgba(201,120,76,.15)"/>
+                  <!-- Decorative corners -->
+                  <path d="M56 22 L56 36" stroke="rgba(201,120,76,.3)" stroke-width="1"/>
+                  <path d="M56 22 L70 22" stroke="rgba(201,120,76,.3)" stroke-width="1"/>
+                  <path d="M224 22 L224 36" stroke="rgba(201,120,76,.3)" stroke-width="1"/>
+                  <path d="M224 22 L210 22" stroke="rgba(201,120,76,.3)" stroke-width="1"/>
+                </svg>
+              </div>
+              <div class="case-item__overlay">
+                <div class="case-item__view">
+                  <div class="case-view-icon">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M2 14L14 2M14 2H5M14 2v9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+                  </div>
+                  Открыть кейс
+                </div>
+              </div>
+            </div>
+            <div class="case-item__body">
+              <div class="case-item__meta">
+                <div class="case-item__index">04 · 2023</div>
+                <h2 class="case-item__name">Кедр</h2>
+                <p style="font-size:.85rem; color:var(--text-muted);">Фирменный стиль ресторанной сети</p>
+                <div class="case-item__tags">
+                  <span class="case-tag">Брендинг</span>
+                  <span class="case-tag">Айдентика</span>
+                  <span class="case-tag">Гайдбук</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Case 5 -->
+          <article class="case-item reveal" data-case-id="5" data-category="uiux" role="button" tabindex="0" aria-label="Кейс Pulse Health">
+            <div class="case-item__visual">
+              <div class="case-item__visual-inner case-bg-2" style="width:100%;height:100%;display:flex;align-items:center;justify-content:center;">
+                <div class="case-pattern case-pattern-dots" style="position:absolute;inset:0;opacity:.2;"></div>
+                <svg viewBox="0 0 280 220" fill="none"  aria-hidden="true">
+                  <!-- Dashboard frame -->
+                  <rect x="14" y="8" width="252" height="204" rx="10" fill="rgba(8,7,6,.65)" stroke="rgba(232,62,62,.3)" stroke-width="1"/>
+                  <!-- Top header -->
+                  <rect x="26" y="20" width="80" height="6" rx="2" fill="rgba(232,62,62,.4)"/>
+                  <rect x="206" y="18" width="48" height="10" rx="5" fill="rgba(232,62,62,.15)" stroke="rgba(232,62,62,.3)" stroke-width="1"/>
+                  <!-- Metric cards row -->
+                  <rect x="26" y="36" width="68" height="36" rx="7" fill="rgba(232,62,62,.07)" stroke="rgba(232,62,62,.22)" stroke-width="1"/>
+                  <rect x="34" y="44" width="28" height="5" rx="2" fill="rgba(232,62,62,.45)"/>
+                  <rect x="34" y="54" width="18" height="4" rx="2" fill="rgba(232,62,62,.2)"/>
+                  <circle cx="82" cy="54" r="6" stroke="rgba(232,62,62,.4)" stroke-width="1.5" fill="none"/>
+                  <path d="M79 54 l2 2 4-3" stroke="rgba(232,62,62,.6)" stroke-width="1" stroke-linecap="round"/>
+
+                  <rect x="102" y="36" width="68" height="36" rx="7" fill="rgba(232,62,62,.07)" stroke="rgba(232,62,62,.18)" stroke-width="1"/>
+                  <rect x="110" y="44" width="28" height="5" rx="2" fill="rgba(232,62,62,.38)"/>
+                  <rect x="110" y="54" width="22" height="4" rx="2" fill="rgba(232,62,62,.18)"/>
+
+                  <rect x="178" y="36" width="68" height="36" rx="7" fill="rgba(232,62,62,.07)" stroke="rgba(232,62,62,.15)" stroke-width="1"/>
+                  <rect x="186" y="44" width="28" height="5" rx="2" fill="rgba(232,62,62,.32)"/>
+                  <rect x="186" y="54" width="16" height="4" rx="2" fill="rgba(232,62,62,.15)"/>
+                  <!-- Chart area -->
+                  <rect x="26" y="82" width="220" height="84" rx="8" fill="rgba(232,62,62,.05)" stroke="rgba(232,62,62,.18)" stroke-width="1"/>
+                  <!-- Grid lines -->
+                  <line x1="26" y1="110" x2="246" y2="110" stroke="rgba(232,62,62,.07)" stroke-width="1"/>
+                  <line x1="26" y1="130" x2="246" y2="130" stroke="rgba(232,62,62,.07)" stroke-width="1"/>
+                  <line x1="26" y1="150" x2="246" y2="150" stroke="rgba(232,62,62,.07)" stroke-width="1"/>
+                  <!-- Heart rate line -->
+                  <polyline points="36,140 56,140 66,96 78,158 90,108 102,140 122,140 136,92 148,154 160,108 174,140 194,140 208,95 220,155 236,120"
+                    stroke="rgba(232,62,62,.7)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                  <!-- Area fill under chart -->
+                  <path d="M36,140 56,140 66,96 78,158 90,108 102,140 122,140 136,92 148,154 160,108 174,140 194,140 208,95 220,155 236,120 236,166 36,166 Z"
+                    fill="rgba(232,62,62,.06)"/>
+                  <!-- Bottom stat row -->
+                  <rect x="26" y="176" width="50" height="26" rx="6" fill="rgba(232,62,62,.06)" stroke="rgba(232,62,62,.18)" stroke-width="1"/>
+                  <rect x="33" y="183" width="20" height="5" rx="2" fill="rgba(232,62,62,.4)"/>
+                  <rect x="33" y="192" width="32" height="3" rx="1.5" fill="rgba(232,62,62,.18)"/>
+                  <rect x="84" y="176" width="50" height="26" rx="6" fill="rgba(232,62,62,.06)" stroke="rgba(232,62,62,.14)" stroke-width="1"/>
+                  <rect x="91" y="183" width="24" height="5" rx="2" fill="rgba(232,62,62,.32)"/>
+                  <rect x="91" y="192" width="28" height="3" rx="1.5" fill="rgba(232,62,62,.15)"/>
+                  <rect x="142" y="176" width="50" height="26" rx="6" fill="rgba(232,62,62,.06)" stroke="rgba(232,62,62,.12)" stroke-width="1"/>
+                  <rect x="149" y="183" width="18" height="5" rx="2" fill="rgba(232,62,62,.28)"/>
+                  <rect x="149" y="192" width="24" height="3" rx="1.5" fill="rgba(232,62,62,.12)"/>
+                  <rect x="200" y="176" width="46" height="26" rx="6" fill="rgba(232,62,62,.06)" stroke="rgba(232,62,62,.1)" stroke-width="1"/>
+                  <rect x="207" y="183" width="22" height="5" rx="2" fill="rgba(232,62,62,.22)"/>
+                  <rect x="207" y="192" width="18" height="3" rx="1.5" fill="rgba(232,62,62,.1)"/>
+                </svg>
+              </div>
+              <div class="case-item__overlay">
+                <div class="case-item__view">
+                  <div class="case-view-icon">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M2 14L14 2M14 2H5M14 2v9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+                  </div>
+                  Открыть кейс
+                </div>
+              </div>
+            </div>
+            <div class="case-item__body">
+              <div class="case-item__meta">
+                <div class="case-item__index">05 · 2023</div>
+                <h2 class="case-item__name">Pulse Health</h2>
+                <p style="font-size:.85rem; color:var(--text-muted);">Дашборд медицинской платформы</p>
+                <div class="case-item__tags">
+                  <span class="case-tag">UI/UX</span>
+                  <span class="case-tag">Дашборд</span>
+                  <span class="case-tag">Data Viz</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Case 6 -->
+          <article class="case-item reveal reveal-delay-1" data-case-id="6" data-category="uiux branding" role="button" tabindex="0" aria-label="Кейс Nord Capital">
+            <div class="case-item__visual">
+              <div class="case-item__visual-inner case-bg-1" style="width:100%;height:100%;display:flex;align-items:center;justify-content:center;">
+                <div class="case-pattern case-pattern-grid" style="position:absolute;inset:0;"></div>
+                <svg viewBox="0 0 280 220" fill="none"  aria-hidden="true">
+                  <!-- Site frame -->
+                  <rect x="14" y="8" width="252" height="204" rx="10" fill="rgba(8,7,6,.65)" stroke="rgba(201,168,76,.3)" stroke-width="1"/>
+                  <!-- Nav -->
+                  <rect x="14" y="8" width="252" height="24" rx="10" fill="rgba(201,168,76,.06)"/>
+                  <rect x="14" y="24" width="252" height="8" fill="rgba(201,168,76,.06)"/>
+                  <rect x="26" y="16" width="36" height="6" rx="2" fill="rgba(201,168,76,.5)"/>
+                  <rect x="164" y="16" width="26" height="6" rx="2" fill="rgba(201,168,76,.2)"/>
+                  <rect x="196" y="16" width="20" height="6" rx="2" fill="rgba(201,168,76,.2)"/>
+                  <rect x="222" y="14" width="32" height="10" rx="5" fill="rgba(201,168,76,.25)" stroke="rgba(201,168,76,.4)" stroke-width="1"/>
+                  <!-- Hero stats -->
+                  <rect x="26" y="44" width="90" height="10" rx="2" fill="rgba(201,168,76,.5)"/>
+                  <rect x="26" y="60" width="60" height="6" rx="2" fill="rgba(201,168,76,.22)"/>
+                  <rect x="26" y="72" width="72" height="4" rx="2" fill="rgba(201,168,76,.14)"/>
+                  <rect x="26" y="84" width="46" height="12" rx="6" fill="rgba(201,168,76,.3)" stroke="rgba(201,168,76,.45)" stroke-width="1"/>
+                  <!-- Big number -->
+                  <rect x="160" y="44" width="80" height="18" rx="3" fill="rgba(201,168,76,.45)"/>
+                  <rect x="160" y="68" width="56" height="7" rx="2" fill="rgba(201,168,76,.18)"/>
+                  <!-- Chart -->
+                  <rect x="26" y="108" width="224" height="72" rx="8" fill="rgba(201,168,76,.04)" stroke="rgba(201,168,76,.2)" stroke-width="1"/>
+                  <line x1="26" y1="130" x2="250" y2="130" stroke="rgba(201,168,76,.06)" stroke-width="1"/>
+                  <line x1="26" y1="148" x2="250" y2="148" stroke="rgba(201,168,76,.06)" stroke-width="1"/>
+                  <line x1="26" y1="166" x2="250" y2="166" stroke="rgba(201,168,76,.06)" stroke-width="1"/>
+                  <!-- Growth line -->
+                  <polyline points="36,168 60,162 84,158 108,150 132,144 156,136 180,126 204,118 228,112 244,109"
+                    stroke="rgba(201,168,76,.65)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                  <!-- Area -->
+                  <path d="M36,168 60,162 84,158 108,150 132,144 156,136 180,126 204,118 228,112 244,109 244,176 36,176 Z"
+                    fill="rgba(201,168,76,.07)"/>
+                  <!-- Dot at end -->
+                  <circle cx="244" cy="109" r="4" fill="rgba(201,168,76,.7)"/>
+                  <!-- Bottom stat strip -->
+                  <rect x="26" y="190" width="56" height="14" rx="5" fill="rgba(201,168,76,.08)" stroke="rgba(201,168,76,.2)" stroke-width="1"/>
+                  <rect x="30" y="194" width="38" height="5" rx="2" fill="rgba(201,168,76,.35)"/>
+                  <rect x="90" y="190" width="56" height="14" rx="5" fill="rgba(201,168,76,.06)" stroke="rgba(201,168,76,.15)" stroke-width="1"/>
+                  <rect x="94" y="194" width="28" height="5" rx="2" fill="rgba(201,168,76,.25)"/>
+                  <rect x="154" y="190" width="56" height="14" rx="5" fill="rgba(201,168,76,.05)" stroke="rgba(201,168,76,.12)" stroke-width="1"/>
+                  <rect x="158" y="194" width="32" height="5" rx="2" fill="rgba(201,168,76,.2)"/>
+                </svg>
+              </div>
+              <div class="case-item__overlay">
+                <div class="case-item__view">
+                  <div class="case-view-icon">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M2 14L14 2M14 2H5M14 2v9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+                  </div>
+                  Открыть кейс
+                </div>
+              </div>
+            </div>
+            <div class="case-item__body">
+              <div class="case-item__meta">
+                <div class="case-item__index">06 · 2022</div>
+                <h2 class="case-item__name">Nord Capital</h2>
+                <p style="font-size:.85rem; color:var(--text-muted);">Сайт инвестиционного фонда</p>
+                <div class="case-item__tags">
+                  <span class="case-tag">Веб-дизайн</span>
+                  <span class="case-tag">UI/UX</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta" style="border-top:1px solid var(--border);">
+      <div class="cta__bg"></div>
+      <div class="container">
+        <div class="cta__inner">
+          <h2 class="cta__title reveal">
+            Ваш проект —<br>
+            следующий <em style="font-style:italic;color:var(--accent);">кейс?</em>
+          </h2>
+          <p class="cta__sub reveal reveal-delay-1">Расскажите задачу — начнём с бесплатной консультации.</p>
+          <div class="reveal reveal-delay-2">
+            <a href="contact.html" class="btn btn--primary" style="padding:1rem 2.5rem; font-size:.85rem;">
+              Начать проект
+              <svg class="btn__arrow" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+                <path d="M3 9h12M9 3l6 6-6 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <div class="container">
+      <div class="footer__top">
+        <div>
+          <a href="index.html" class="nav__logo">FORMA <span></span></a>
+          <p class="footer__brand-text">Студия интерфейсного дизайна и брендинга. Москва, 2017 — сегодня.</p>
+        </div>
+        <div>
+          <p class="footer__col-title">Страницы</p>
+          <ul class="footer__links">
+            <li><a href="cases.html">Кейсы</a></li>
+            <li><a href="services.html">Услуги</a></li>
+            <li><a href="about.html">О студии</a></li>
+            <li><a href="contact.html">Контакты</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer__col-title">Услуги</p>
+          <ul class="footer__links">
+            <li><a href="services.html">UI/UX дизайн</a></li>
+            <li><a href="services.html">Брендинг</a></li>
+            <li><a href="services.html">Дизайн-системы</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer__col-title">Контакты</p>
+          <ul class="footer__links">
+            <li><a href="mailto:hello@formastudio.ru">hello@formastudio.ru</a></li>
+            <li><a href="tel:+74951234567">+7 (495) 123-45-67</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>© 2024 FORMA Studio. Все права защищены.</span>
+        <span>Дизайн с душой, в Москве.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modal -->
+  <div class="modal-overlay" id="caseModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal">
+      <div class="modal__header">
+        <div>
+          <h2 class="modal__title" id="modalTitle">—</h2>
+          <p class="modal__subtitle">—</p>
+        </div>
+        <button class="modal__close" aria-label="Закрыть">
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+            <path d="M1 1l12 12M13 1L1 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </button>
+      </div>
+      <div class="modal__visual"></div>
+      <div class="modal__body">
+        <div class="modal__section">
+          <p class="modal__section-label">Задача</p>
+          <p class="modal__section-text" id="modal-task"></p>
+        </div>
+        <div class="modal__section">
+          <p class="modal__section-label">Процесс</p>
+          <p class="modal__section-text" id="modal-process"></p>
+        </div>
+        <div class="modal__section">
+          <p class="modal__section-label">Результат</p>
+          <p class="modal__section-text" id="modal-result"></p>
+          <div class="modal__result-grid" id="modal-stats"></div>
+        </div>
+        <div class="modal__section">
+          <p class="modal__section-label">Инструменты</p>
+          <div class="modal__tools" id="modal-tools"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="/js/script.js"></script>
+  <script src="/js/cases.js"></script>
+</body>
+</html>

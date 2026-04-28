@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="FORMA — студия интерфейсного дизайна и брендинга. Создаём UI/UX, айдентику и дизайн-системы для технологических компаний.">
+  <meta name="keywords" content="дизайн студия, UI/UX дизайн, брендинг, айдентика, дизайн-система, веб-дизайн">
+  <meta property="og:title" content="FORMA Studio — Дизайн интерфейсов и брендинг">
+  <meta property="og:description" content="Создаём интерфейсы и бренды, которые работают. Студия дизайна FORMA.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#080706">
+  <title>FORMA Studio — Дизайн интерфейсов и брендинг</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="canonical" href="https://formastudio.ru/">
+</head>
+<body>
+
+  <!-- Custom Cursor -->
+  <div id="cursor-dot"></div>
+  <div id="cursor-ring"></div>
+
+  <!-- Navigation -->
+  <nav class="nav" role="navigation" aria-label="Главное меню">
+    <div class="container">
+      <div class="nav__inner">
+        <a href="index.html" class="nav__logo" aria-label="FORMA Studio — на главную">
+          FORMA <span></span>
+        </a>
+        <ul class="nav__links" role="list">
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="cases.html">Кейсы</a></li>
+          <li><a href="services.html">Услуги</a></li>
+          <li><a href="about.html">О студии</a></li>
+          <li><a href="contact.html">Контакты</a></li>
+        </ul>
+        <a href="contact.html" class="btn btn--ghost nav__cta" aria-label="Обсудить проект">
+          Обсудить проект
+        </a>
+        <button class="nav__burger" aria-label="Меню" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="nav__mobile" role="dialog" aria-label="Мобильное меню">
+    <a href="index.html">Главная</a>
+    <a href="cases.html">Кейсы</a>
+    <a href="services.html">Услуги</a>
+    <a href="about.html">О студии</a>
+    <a href="contact.html">Контакты</a>
+  </div>
+
+  <main>
+    <!-- ── Hero ───────────────────────────────────────────────── -->
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="hero__bg">
+        <div class="hero__grid"></div>
+        <div class="hero__orb hero__orb--1"></div>
+        <div class="hero__orb hero__orb--2"></div>
+      </div>
+
+      <div class="container">
+        <div class="hero__content">
+          <div class="hero__eyebrow">
+            <span class="hero__eyebrow-dot"></span>
+            Студия дизайна · Москва · С 2017
+          </div>
+          <div class="hero__heading">
+            <h1 id="hero-heading" class="display">
+              Дизайн,<br>
+              который<br>
+              <em>говорит.</em>
+            </h1>
+          </div>
+          <div class="hero__actions">
+            <a href="cases.html" class="btn btn--primary">
+              Смотреть кейсы
+              <svg class="btn__arrow" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+                <path d="M3 9h12M9 3l6 6-6 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+            <a href="about.html" class="btn btn--ghost">О студии</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Stats bar -->
+      <div class="hero__stat-bar" aria-label="Статистика студии">
+        <div class="hero__stat">
+          <span class="hero__stat-num">80+</span>
+          <span class="hero__stat-label">Проектов</span>
+        </div>
+        <div class="hero__stat">
+          <span class="hero__stat-num">7 лет</span>
+          <span class="hero__stat-label">На рынке</span>
+        </div>
+        <div class="hero__stat">
+          <span class="hero__stat-num">14</span>
+          <span class="hero__stat-label">Наград</span>
+        </div>
+      </div>
+
+      <!-- Scroll hint -->
+      <div class="hero__scroll-hint" aria-hidden="true">
+        <span>Скролл</span>
+        <div class="hero__scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- ── About Intro ─────────────────────────────────────────── -->
+    <section class="about-intro" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="about-intro__layout">
+          <div class="about-intro__left">
+            <div class="section__label reveal">
+              <span class="label label--accent">О студии</span>
+            </div>
+            <h2 id="about-heading" class="h2 section__title reveal reveal-delay-1">
+              Мы проектируем<br>
+              <em style="font-style:italic; color: var(--accent);">опыт.</em>
+            </h2>
+            <div class="about-intro__tags reveal reveal-delay-2">
+              <span class="tag tag--accent">UI/UX</span>
+              <span class="tag">Брендинг</span>
+              <span class="tag">Прототипирование</span>
+              <span class="tag">Дизайн-системы</span>
+              <span class="tag">Исследования</span>
+            </div>
+          </div>
+          <div class="about-intro__right">
+            <p class="about-intro__text reveal reveal-delay-1">
+              <strong>FORMA</strong> — студия интерфейсного дизайна и брендинга,
+              которая работает на пересечении стратегии и эстетики.
+              Мы верим, что дизайн — это не украшение, а инструмент роста.
+            </p>
+            <span class="about-intro__line"></span>
+            <p class="about-intro__text reveal reveal-delay-2">
+              За 7 лет мы создали более 80 проектов: от мобильных приложений
+              для стартапов до корпоративных дизайн-систем и фирменного стиля
+              международных брендов.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Cases Preview ───────────────────────────────────────── -->
+    <section class="cases-preview" aria-labelledby="cases-heading">
+      <div class="container">
+        <div class="cases-preview__header">
+          <div>
+            <div class="section__label reveal">
+              <span class="label label--accent">Избранные работы</span>
+            </div>
+            <h2 id="cases-heading" class="h2 reveal reveal-delay-1">
+              Кейсы,<br>которые нас<br>
+              <em style="font-style:italic; color:var(--accent);">определяют.</em>
+            </h2>
+          </div>
+          <a href="cases.html" class="btn btn--ghost reveal">
+            Все кейсы
+            <svg class="btn__arrow" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+              <path d="M3 9h12M9 3l6 6-6 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+
+        <div class="cases-preview__grid reveal">
+          <!-- Card 1 — large -->
+          <article class="case-card" data-case-id="1" role="button" tabindex="0" aria-label="Кейс Neolux — открыть">
+            <div class="case-card__bg case-bg-1">
+              <div class="case-pattern case-pattern-lines"></div>
+              <svg class="svg-item-neolux svg-item-z_index" viewBox="0 0 260 340" fill="none" aria-hidden="true">
+                <!-- Phone -->
+                <rect x="52" y="8" width="156" height="268" rx="22" fill="rgba(8,7,6,.65)" stroke="rgba(201,168,76,.45)" stroke-width="1.5"/>
+                <rect x="92" y="18" width="76" height="8" rx="4" fill="rgba(201,168,76,.15)"/>
+                <!-- App nav -->
+                <rect x="65" y="38" width="46" height="6" rx="2" fill="rgba(201,168,76,.55)"/>
+                <circle cx="190" cy="41" r="10" stroke="rgba(201,168,76,.4)" stroke-width="1"/>
+                <circle cx="190" cy="41" r="4" fill="rgba(201,168,76,.5)"/>
+                <!-- Hero banner -->
+                <rect x="65" y="56" width="130" height="76" rx="10" fill="rgba(201,168,76,.07)" stroke="rgba(201,168,76,.2)" stroke-width="1"/>
+                <circle cx="104" cy="83" r="18" stroke="rgba(201,168,76,.45)" stroke-width="1.5"/>
+                <circle cx="104" cy="83" r="9" stroke="rgba(201,168,76,.25)" stroke-width="1"/>
+                <circle cx="104" cy="83" r="3" fill="rgba(201,168,76,.65)"/>
+                <rect x="132" y="72" width="48" height="6" rx="2" fill="rgba(201,168,76,.5)"/>
+                <rect x="132" y="83" width="34" height="4" rx="2" fill="rgba(201,168,76,.25)"/>
+                <rect x="132" y="93" width="42" height="4" rx="2" fill="rgba(201,168,76,.15)"/>
+                <rect x="132" y="104" width="26" height="8" rx="4" fill="rgba(201,168,76,.35)" stroke="rgba(201,168,76,.4)" stroke-width="1"/>
+                <!-- Palette -->
+                <rect x="65" y="146" width="22" height="22" rx="5" fill="rgba(201,168,76,.9)"/>
+                <rect x="92" y="146" width="22" height="22" rx="5" fill="rgba(201,168,76,.55)"/>
+                <rect x="119" y="146" width="22" height="22" rx="5" fill="rgba(201,168,76,.28)"/>
+                <rect x="146" y="146" width="22" height="22" rx="5" fill="rgba(18,14,6,.9)" stroke="rgba(201,168,76,.25)" stroke-width="1"/>
+                <rect x="173" y="146" width="22" height="22" rx="5" fill="rgba(237,232,223,.12)" stroke="rgba(201,168,76,.2)" stroke-width="1"/>
+                <!-- Content row -->
+                <rect x="65" y="182" width="38" height="38" rx="7" fill="rgba(201,168,76,.08)" stroke="rgba(201,168,76,.18)" stroke-width="1"/>
+                <rect x="70" y="193" width="28" height="4" rx="2" fill="rgba(201,168,76,.3)"/>
+                <rect x="70" y="202" width="20" height="3" rx="1.5" fill="rgba(201,168,76,.15)"/>
+                <rect x="112" y="184" width="80" height="7" rx="2" fill="rgba(201,168,76,.35)"/>
+                <rect x="112" y="196" width="60" height="4" rx="2" fill="rgba(201,168,76,.18)"/>
+                <rect x="112" y="205" width="70" height="4" rx="2" fill="rgba(201,168,76,.12)"/>
+                <!-- Bottom nav -->
+                <rect x="65" y="228" width="130" height="1" fill="rgba(201,168,76,.18)"/>
+                <circle cx="98"  cy="246" r="7" fill="rgba(201,168,76,.45)"/>
+                <circle cx="130" cy="246" r="7" stroke="rgba(201,168,76,.22)" stroke-width="1" fill="none"/>
+                <circle cx="162" cy="246" r="7" stroke="rgba(201,168,76,.22)" stroke-width="1" fill="none"/>
+                <rect x="105" y="268" width="50" height="4" rx="2" fill="rgba(201,168,76,.18)"/>
+                <!-- Floating brand element -->
+                <circle cx="28" cy="170" r="22" stroke="rgba(201,168,76,.22)" stroke-width="1"/>
+                <circle cx="28" cy="170" r="12" stroke="rgba(201,168,76,.15)" stroke-width="1"/>
+                <circle cx="28" cy="170" r="4" fill="rgba(201,168,76,.35)"/>
+                <!-- Side type -->
+                <rect x="218" y="90" width="34" height="7" rx="2" fill="rgba(201,168,76,.4)"/>
+                <rect x="218" y="103" width="26" height="4" rx="2" fill="rgba(201,168,76,.2)"/>
+                <rect x="218" y="112" width="30" height="3" rx="1.5" fill="rgba(201,168,76,.12)"/>
+                <rect x="218" y="121" width="22" height="3" rx="1.5" fill="rgba(201,168,76,.1)"/>
+                <rect x="218" y="134" width="34" height="1" fill="rgba(201,168,76,.18)"/>
+                <rect x="218" y="142" width="28" height="4" rx="2" fill="rgba(201,168,76,.15)"/>
+                <rect x="218" y="152" width="22" height="4" rx="2" fill="rgba(201,168,76,.1)"/>
+              </svg>
+            </div>
+            <div class="case-card__info">
+              <div class="case-card__num">01</div>
+              <h3 class="case-card__title">Neolux</h3>
+              <p class="case-card__cat">Брендинг · UI/UX</p>
+            </div>
+            <div class="case-card__arrow" aria-hidden="true">
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                <path d="M2 12L12 2M12 2H4M12 2v8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="case-card" data-case-id="2" role="button" tabindex="0" aria-label="Кейс Vesta — открыть">
+            <div class="case-card__bg case-bg-2">
+              <div class="case-pattern case-pattern-dots"></div>
+              <svg class="svg-item-vesta svg-item-z_index" viewBox="0 0 240 240" fill="none" aria-hidden="true">
+                <!-- Phone frame -->
+                <rect x="44" y="4" width="152" height="232" rx="20" fill="rgba(8,7,6,.65)" stroke="rgba(62,232,160,.4)" stroke-width="1.5"/>
+                <rect x="84" y="13" width="72" height="7" rx="3.5" fill="rgba(62,232,160,.15)"/>
+                <!-- Header -->
+                <rect x="58" y="30" width="60" height="7" rx="2" fill="rgba(62,232,160,.5)"/>
+                <rect x="166" y="28" width="18" height="10" rx="5" fill="rgba(62,232,160,.25)"/>
+                <!-- Progress bar -->
+                <rect x="58" y="50" width="124" height="5" rx="2.5" fill="rgba(62,232,160,.1)"/>
+                <rect x="58" y="50" width="78" height="5" rx="2.5" fill="rgba(62,232,160,.55)"/>
+                <rect x="58" y="58" width="32" height="3" rx="1.5" fill="rgba(62,232,160,.3)"/>
+                <rect x="94" y="58" width="20" height="3" rx="1.5" fill="rgba(62,232,160,.15)"/>
+                <!-- Task 1 - done -->
+                <rect x="58" y="72" width="124" height="28" rx="7" fill="rgba(62,232,160,.08)" stroke="rgba(62,232,160,.2)" stroke-width="1"/>
+                <rect x="68" y="82" width="12" height="12" rx="3" fill="rgba(62,232,160,.5)"/>
+                <line x1="71" y1="88" x2="74" y2="91" stroke="rgba(8,7,6,.9)" stroke-width="1.5" stroke-linecap="round"/>
+                <line x1="74" y1="91" x2="79" y2="85" stroke="rgba(8,7,6,.9)" stroke-width="1.5" stroke-linecap="round"/>
+                <rect x="88" y="82" width="60" height="4" rx="2" fill="rgba(62,232,160,.25)"/>
+                <rect x="88" y="91" width="38" height="3" rx="1.5" fill="rgba(62,232,160,.15)"/>
+                <rect x="158" y="84" width="16" height="6" rx="3" fill="rgba(62,232,160,.15)"/>
+                <!-- Task 2 - active -->
+                <rect x="58" y="108" width="124" height="28" rx="7" fill="rgba(62,232,160,.05)" stroke="rgba(62,232,160,.35)" stroke-width="1"/>
+                <rect x="68" y="118" width="12" height="12" rx="3" stroke="rgba(62,232,160,.5)" stroke-width="1.5" fill="none"/>
+                <rect x="88" y="118" width="72" height="4" rx="2" fill="rgba(62,232,160,.4)"/>
+                <rect x="88" y="127" width="44" height="3" rx="1.5" fill="rgba(62,232,160,.2)"/>
+                <rect x="156" y="120" width="18" height="6" rx="3" fill="rgba(62,232,160,.2)" stroke="rgba(62,232,160,.35)" stroke-width="1"/>
+                <!-- Task 3 -->
+                <rect x="58" y="144" width="124" height="28" rx="7" fill="rgba(62,232,160,.04)" stroke="rgba(62,232,160,.15)" stroke-width="1"/>
+                <rect x="68" y="154" width="12" height="12" rx="3" stroke="rgba(62,232,160,.3)" stroke-width="1.5" fill="none"/>
+                <rect x="88" y="154" width="54" height="4" rx="2" fill="rgba(62,232,160,.3)"/>
+                <rect x="88" y="163" width="36" height="3" rx="1.5" fill="rgba(62,232,160,.15)"/>
+                <!-- Task 4 - faded -->
+                <rect x="58" y="180" width="124" height="28" rx="7" fill="rgba(62,232,160,.03)" stroke="rgba(62,232,160,.1)" stroke-width="1"/>
+                <rect x="68" y="190" width="12" height="12" rx="3" stroke="rgba(62,232,160,.2)" stroke-width="1.5" fill="none"/>
+                <rect x="88" y="190" width="48" height="4" rx="2" fill="rgba(62,232,160,.2)"/>
+                <rect x="88" y="199" width="30" height="3" rx="1.5" fill="rgba(62,232,160,.1)"/>
+                <!-- Bottom -->
+                <rect x="58" y="216" width="124" height="1" fill="rgba(62,232,160,.15)"/>
+                <rect x="90" y="224" width="60" height="4" rx="2" fill="rgba(62,232,160,.15)"/>
+              </svg>
+            </div>
+            <div class="case-card__info">
+              <div class="case-card__num">02</div>
+              <h3 class="case-card__title">Vesta</h3>
+              <p class="case-card__cat">UI/UX · Мобайл</p>
+            </div>
+            <div class="case-card__arrow" aria-hidden="true">
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                <path d="M2 12L12 2M12 2H4M12 2v8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="case-card" data-case-id="3" role="button" tabindex="0" aria-label="Кейс Arvid — открыть">
+            <div class="case-card__bg case-bg-3">
+              <div class="case-pattern case-pattern-grid"></div>
+              <svg class="svg-item-arvid svg-item-z_index" viewBox="0 0 240 240" fill="none" aria-hidden="true">
+                <!-- Window chrome -->
+                <rect x="10" y="10" width="220" height="220" rx="12" fill="rgba(8,7,6,.6)" stroke="rgba(62,160,232,.35)" stroke-width="1"/>
+                <rect x="10" y="10" width="220" height="28" rx="12" fill="rgba(62,160,232,.08)"/>
+                <rect x="10" y="30" width="220" height="8" fill="rgba(62,160,232,.08)"/>
+                <circle cx="28" cy="24" r="5" fill="rgba(232,62,62,.4)"/>
+                <circle cx="44" cy="24" r="5" fill="rgba(232,200,62,.4)"/>
+                <circle cx="60" cy="24" r="5" fill="rgba(62,232,100,.4)"/>
+                <rect x="86" y="20" width="80" height="8" rx="4" fill="rgba(62,160,232,.15)"/>
+                <!-- Section: Buttons -->
+                <rect x="22" y="48" width="40" height="4" rx="2" fill="rgba(62,160,232,.45)"/>
+                <rect x="22" y="60" width="56" height="16" rx="5" fill="rgba(62,160,232,.6)"/>
+                <rect x="22" y="60" width="56" height="16" rx="5" fill="none" stroke="rgba(62,160,232,.0)"/>
+                <rect x="24" y="65" width="52" height="5" rx="2" fill="rgba(8,7,6,.5)"/>
+                <rect x="84" y="60" width="56" height="16" rx="5" fill="none" stroke="rgba(62,160,232,.5)" stroke-width="1"/>
+                <rect x="86" y="65" width="52" height="5" rx="2" fill="rgba(62,160,232,.4)"/>
+                <rect x="146" y="60" width="56" height="16" rx="5" fill="rgba(62,160,232,.12)"/>
+                <rect x="148" y="65" width="52" height="5" rx="2" fill="rgba(62,160,232,.35)"/>
+                <!-- Section: Input -->
+                <rect x="22" y="88" width="36" height="4" rx="2" fill="rgba(62,160,232,.35)"/>
+                <rect x="22" y="100" width="196" height="20" rx="6" fill="rgba(62,160,232,.06)" stroke="rgba(62,160,232,.35)" stroke-width="1"/>
+                <rect x="30" y="108" width="80" height="4" rx="2" fill="rgba(62,160,232,.2)"/>
+                <circle cx="204" cy="110" r="5" stroke="rgba(62,160,232,.3)" stroke-width="1" fill="none"/>
+                <!-- Section: Color tokens -->
+                <rect x="22" y="132" width="44" height="4" rx="2" fill="rgba(62,160,232,.35)"/>
+                <rect x="22" y="144" width="24" height="24" rx="5" fill="rgba(62,160,232,.9)"/>
+                <rect x="52" y="144" width="24" height="24" rx="5" fill="rgba(62,160,232,.6)"/>
+                <rect x="82" y="144" width="24" height="24" rx="5" fill="rgba(62,160,232,.35)"/>
+                <rect x="112" y="144" width="24" height="24" rx="5" fill="rgba(62,160,232,.15)"/>
+                <rect x="142" y="144" width="24" height="24" rx="5" fill="rgba(62,160,232,.07)" stroke="rgba(62,160,232,.2)" stroke-width="1"/>
+                <rect x="172" y="144" width="24" height="24" rx="5" fill="rgba(8,7,6,.8)" stroke="rgba(62,160,232,.2)" stroke-width="1"/>
+                <!-- Section: Typography scale -->
+                <rect x="22" y="182" width="60" height="7" rx="2" fill="rgba(62,160,232,.5)"/>
+                <rect x="22" y="194" width="42" height="5" rx="2" fill="rgba(62,160,232,.3)"/>
+                <rect x="22" y="204" width="32" height="4" rx="2" fill="rgba(62,160,232,.2)"/>
+                <rect x="22" y="213" width="26" height="3" rx="1.5" fill="rgba(62,160,232,.12)"/>
+                <!-- Divider -->
+                <rect x="100" y="182" width="1" height="36" fill="rgba(62,160,232,.15)"/>
+                <!-- Token labels -->
+                <rect x="112" y="184" width="50" height="4" rx="2" fill="rgba(62,160,232,.25)"/>
+                <rect x="112" y="193" width="38" height="3" rx="1.5" fill="rgba(62,160,232,.15)"/>
+                <rect x="112" y="202" width="42" height="3" rx="1.5" fill="rgba(62,160,232,.12)"/>
+                <rect x="112" y="211" width="30" height="3" rx="1.5" fill="rgba(62,160,232,.1)"/>
+              </svg>
+            </div>
+            <div class="case-card__info">
+              <div class="case-card__num">03</div>
+              <h3 class="case-card__title">Arvid</h3>
+              <p class="case-card__cat">Дизайн-система</p>
+            </div>
+            <div class="case-card__arrow" aria-hidden="true">
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                <path d="M2 12L12 2M12 2H4M12 2v8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Advantages ──────────────────────────────────────────── -->
+    <section class="advantages" aria-labelledby="adv-heading">
+      <div class="container">
+        <div class="section__label reveal">
+          <span class="label label--accent">Подход</span>
+        </div>
+        <h2 id="adv-heading" class="h2 reveal reveal-delay-1" style="max-width:500px; margin-bottom:0">
+          Почему выбирают<br>нас
+        </h2>
+
+        <div class="advantages__grid">
+          <div class="advantage-item reveal">
+            <div class="advantage-item__num">01</div>
+            <h3 class="advantage-item__title">Стратегия прежде всего</h3>
+            <p class="advantage-item__text">
+              Перед тем как нарисовать первый пиксель, мы погружаемся в бизнес. 
+              Дизайн без стратегии — просто красивые картинки.
+            </p>
+          </div>
+          <div class="advantage-item reveal reveal-delay-2">
+            <div class="advantage-item__num">02</div>
+            <h3 class="advantage-item__title">Итеративный процесс</h3>
+            <p class="advantage-item__text">
+              Мы работаем короткими циклами, вовлекая клиента на каждом этапе. 
+              Никаких «сюрпризов» после трёх месяцев тишины.
+            </p>
+          </div>
+          <div class="advantage-item reveal reveal-delay-3">
+            <div class="advantage-item__num">03</div>
+            <h3 class="advantage-item__title">Измеримые результаты</h3>
+            <p class="advantage-item__text">
+              Дизайн должен влиять на метрики. Мы устанавливаем KPI на старте 
+              и измеряем эффект от каждого решения.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Marquee band ────────────────────────────────────────── -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__inner">
+        <span class="label" style="white-space:nowrap;">UI/UX дизайн</span>
+        <span style="color:var(--accent); font-size:1.2rem;">✦</span>
+        <span class="label" style="white-space:nowrap;">Брендинг</span>
+        <span style="color:var(--accent); font-size:1.2rem;">✦</span>
+        <span class="label" style="white-space:nowrap;">Прототипирование</span>
+        <span style="color:var(--accent); font-size:1.2rem;">✦</span>
+        <span class="label" style="white-space:nowrap;">Дизайн-системы</span>
+        <span style="color:var(--accent); font-size:1.2rem;">✦</span>
+        <span class="label" style="white-space:nowrap;">Исследования</span>
+        <span style="color:var(--accent); font-size:1.2rem;">✦</span>
+        <span class="label" style="white-space:nowrap;">Айдентика</span>
+        <span style="color:var(--accent); font-size:1.2rem;">✦</span>
+        <span class="label" style="white-space:nowrap;">Motion design</span>
+        <span style="color:var(--accent); font-size:1.2rem;">✦</span>
+        <span class="label" style="white-space:nowrap;">Веб-дизайн</span>
+        <span style="color:var(--accent); font-size:1.2rem;">✦</span>
+        <span class="label" style="white-space:nowrap;">UI/UX дизайн</span>
+        <span style="color:var(--accent); font-size:1.2rem;">✦</span>
+        <span class="label" style="white-space:nowrap;">Брендинг</span>
+        <span style="color:var(--accent); font-size:1.2rem;">✦</span>
+        <span class="label" style="white-space:nowrap;">Прототипирование</span>
+        <span style="color:var(--accent); font-size:1.2rem;">✦</span>
+        <span class="label" style="white-space:nowrap;">Дизайн-системы</span>
+        <span style="color:var(--accent); font-size:1.2rem;">✦</span>
+      </div>
+    </div>
+
+    <!-- ── CTA ─────────────────────────────────────────────────── -->
+    <section class="cta">
+      <div class="cta__bg"></div>
+      <div class="container">
+        <div class="cta__inner">
+          <div class="section__label reveal" style="justify-content:center">
+            <span class="label label--accent">Начать проект</span>
+          </div>
+          <h2 class="cta__title reveal reveal-delay-1">
+            Готовы создать<br>
+            <em style="font-style:italic; color:var(--accent);">что-то</em> особенное?
+          </h2>
+          <p class="cta__sub reveal reveal-delay-2">
+            Расскажите о вашем проекте — мы ответим в течение 24 часов.
+          </p>
+          <div class="reveal reveal-delay-3">
+            <a href="contact.html" class="btn btn--primary" style="padding: 1rem 2.5rem; font-size:.85rem;">
+              Написать нам
+              <svg class="btn__arrow" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+                <path d="M3 9h12M9 3l6 6-6 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer role="contentinfo">
+    <div class="container">
+      <div class="footer__top">
+        <div>
+          <a href="index.html" class="nav__logo">FORMA <span></span></a>
+          <p class="footer__brand-text">
+            Студия интерфейсного дизайна и брендинга.<br>
+            Москва, 2017 — сегодня.
+          </p>
+        </div>
+        <div>
+          <p class="footer__col-title">Страницы</p>
+          <ul class="footer__links">
+            <li><a href="cases.html">Кейсы</a></li>
+            <li><a href="services.html">Услуги</a></li>
+            <li><a href="about.html">О студии</a></li>
+            <li><a href="contact.html">Контакты</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer__col-title">Услуги</p>
+          <ul class="footer__links">
+            <li><a href="services.html">UI/UX дизайн</a></li>
+            <li><a href="services.html">Брендинг</a></li>
+            <li><a href="services.html">Прототипирование</a></li>
+            <li><a href="services.html">Дизайн-системы</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer__col-title">Контакты</p>
+          <ul class="footer__links">
+            <li><a href="mailto:hello@formastudio.ru">hello@formastudio.ru</a></li>
+            <li><a href="tel:+74951234567">+7 (495) 123-45-67</a></li>
+            <li><a href="#">Telegram</a></li>
+            <li><a href="#">Behance</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>© 2024 FORMA Studio. Все права защищены.</span>
+        <span>Дизайн с душой, в Москве.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Case Modal -->
+  <div class="modal-overlay" id="caseModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal">
+      <div class="modal__header">
+        <div>
+          <h2 class="modal__title" id="modalTitle">—</h2>
+          <p class="modal__subtitle">—</p>
+        </div>
+        <button class="modal__close" aria-label="Закрыть">
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+            <path d="M1 1l12 12M13 1L1 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </button>
+      </div>
+      <div class="modal__visual"></div>
+      <div class="modal__body">
+        <div class="modal__section">
+          <p class="modal__section-label">Задача</p>
+          <p class="modal__section-text" id="modal-task"></p>
+        </div>
+        <div class="modal__section">
+          <p class="modal__section-label">Процесс</p>
+          <p class="modal__section-text" id="modal-process"></p>
+        </div>
+        <div class="modal__section">
+          <p class="modal__section-label">Результат</p>
+          <p class="modal__section-text" id="modal-result"></p>
+          <div class="modal__result-grid" id="modal-stats"></div>
+        </div>
+        <div class="modal__section">
+          <p class="modal__section-label">Инструменты</p>
+          <div class="modal__tools" id="modal-tools"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <style>
+    @keyframes marquee {
+      0%   { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+  </style>
+
+  <script src="/js/script.js"></script>
+</body>
+</html>

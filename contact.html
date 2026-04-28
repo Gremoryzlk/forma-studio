@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Связаться со студией FORMA — напишите нам о вашем проекте. Отвечаем в течение 24 часов.">
+  <meta property="og:title" content="Контакты — FORMA Studio">
+  <meta name="theme-color" content="#080706">
+  <title>Контакты — FORMA Studio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div id="cursor-dot"></div>
+  <div id="cursor-ring"></div>
+
+  <nav class="nav" role="navigation" aria-label="Главное меню">
+    <div class="container">
+      <div class="nav__inner">
+        <a href="index.html" class="nav__logo">FORMA <span></span></a>
+        <ul class="nav__links" role="list">
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="cases.html">Кейсы</a></li>
+          <li><a href="services.html">Услуги</a></li>
+          <li><a href="about.html">О студии</a></li>
+          <li><a href="contact.html">Контакты</a></li>
+        </ul>
+        <a href="contact.html" class="btn btn--ghost nav__cta">Обсудить проект</a>
+        <button class="nav__burger" aria-label="Меню"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="nav__mobile" role="dialog">
+    <a href="index.html">Главная</a>
+    <a href="cases.html">Кейсы</a>
+    <a href="services.html">Услуги</a>
+    <a href="about.html">О студии</a>
+    <a href="contact.html">Контакты</a>
+  </div>
+
+  <main>
+    <!-- Page Hero -->
+    <section class="page-hero" style="padding-bottom:2rem;">
+      <div class="container">
+        <div class="section__label">
+          <span class="label label--accent">Контакты</span>
+        </div>
+        <h1 class="display" style="max-width:800px">
+          Расскажите<br>
+          о своём<br>
+          <em>проекте.</em>
+        </h1>
+        <p class="section__subtitle" style="margin-top:2rem">
+          Мы отвечаем в течение 24 часов. Если задача срочная — 
+          пишите напрямую в Telegram.
+        </p>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section style="padding:clamp(2rem,4vw,4rem) 0 clamp(4rem,8vw,8rem);" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="contact-layout">
+
+          <!-- Info Column -->
+          <div>
+            <h2 id="contact-heading" class="contact-info__title reveal">
+              Начнём<br>
+              <em style="font-style:italic;color:var(--accent);">диалог</em>
+            </h2>
+            <p class="contact-info__text reveal reveal-delay-1">
+              Расскажите в двух словах о задаче, сроках и бюджете — 
+              и мы предложим, как можем помочь. Без спама и агрессивных продаж.
+            </p>
+
+            <div class="contact-details reveal reveal-delay-2">
+              <div class="contact-detail">
+                <span class="contact-detail__label">Email</span>
+                <a href="mailto:hello@formastudio.ru" class="contact-detail__value">hello@formastudio.ru</a>
+              </div>
+              <div class="contact-detail">
+                <span class="contact-detail__label">Телефон</span>
+                <a href="tel:+74951234567" class="contact-detail__value">+7 (495) 123-45-67</a>
+              </div>
+              <div class="contact-detail">
+                <span class="contact-detail__label">Telegram</span>
+                <a href="https://t.me/formastudio" class="contact-detail__value" target="_blank" rel="noopener">@formastudio</a>
+              </div>
+              <div class="contact-detail">
+                <span class="contact-detail__label">Офис</span>
+                <span class="contact-detail__value" style="color:var(--text-mid);">Москва, Никольская ул., 10</span>
+              </div>
+            </div>
+
+            <!-- Socials -->
+            <div class="reveal reveal-delay-3">
+              <p class="label" style="margin-bottom:1rem; color:var(--text-muted);">Социальные сети</p>
+              <div class="socials" role="list">
+                <a href="#" class="social-link" role="listitem" aria-label="Behance" target="_blank" rel="noopener">Be</a>
+                <a href="#" class="social-link" role="listitem" aria-label="Dribbble" target="_blank" rel="noopener">Dr</a>
+                <a href="#" class="social-link" role="listitem" aria-label="Telegram" target="_blank" rel="noopener">Tg</a>
+                <a href="#" class="social-link" role="listitem" aria-label="VK" target="_blank" rel="noopener">VK</a>
+              </div>
+            </div>
+
+            <!-- Working hours -->
+            <div style="margin-top:3rem; padding:1.5rem; background:var(--bg-card); border:1px solid var(--border); border-radius:var(--radius);" class="reveal reveal-delay-4">
+              <p class="label" style="margin-bottom:.75rem; color:var(--text-muted);">Время работы</p>
+              <div style="display:flex; justify-content:space-between; margin-bottom:.5rem;">
+                <span style="font-size:.85rem; color:var(--text-mid);">Пн – Пт</span>
+                <span style="font-size:.85rem; color:var(--text);">10:00 – 19:00</span>
+              </div>
+              <div style="display:flex; justify-content:space-between;">
+                <span style="font-size:.85rem; color:var(--text-mid);">Сб – Вс</span>
+                <span style="font-size:.85rem; color:var(--text-muted);">Только срочное</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Form Column -->
+          <div class="reveal">
+            <form class="contact-form" id="contactForm" novalidate>
+
+              <!-- Main form -->
+              <div class="form-main">
+                <p style="font-size:.7rem; letter-spacing:.15em; text-transform:uppercase; color:var(--text-muted); margin-bottom:1.75rem;">Заполните форму</p>
+
+                <div class="form-row">
+                  <div class="form-group">
+                    <label class="form-label" for="input-name">Ваше имя <span style="color:#e05454">*</span></label>
+                    <input
+                      class="form-input"
+                      type="text"
+                      id="input-name"
+                      name="name"
+                      placeholder="Александр"
+                      required
+                      autocomplete="name"
+                      aria-required="true"
+                    >
+                    <span class="form-error" role="alert">Пожалуйста, введите имя</span>
+                  </div>
+                  <div class="form-group">
+                    <label class="form-label" for="input-company">Компания</label>
+                    <input
+                      class="form-input"
+                      type="text"
+                      id="input-company"
+                      name="company"
+                      placeholder="ООО Инноватор"
+                      autocomplete="organization"
+                    >
+                  </div>
+                </div>
+
+                <div class="form-row">
+                  <div class="form-group">
+                    <label class="form-label" for="input-email">Email <span style="color:#e05454">*</span></label>
+                    <input
+                      class="form-input"
+                      type="email"
+                      id="input-email"
+                      name="email"
+                      placeholder="name@company.ru"
+                      required
+                      autocomplete="email"
+                      aria-required="true"
+                    >
+                    <span class="form-error" role="alert">Введите корректный email</span>
+                  </div>
+                  <div class="form-group">
+                    <label class="form-label" for="input-phone">Телефон</label>
+                    <input
+                      class="form-input"
+                      type="tel"
+                      id="input-phone"
+                      name="phone"
+                      placeholder="+7 (___) ___-__-__"
+                      autocomplete="tel"
+                    >
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label" for="input-service">Услуга</label>
+                  <select class="form-input" id="input-service" name="service" style="-webkit-appearance:none; background-image:url('data:image/svg+xml,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"8\" viewBox=\"0 0 12 8\"><path d=\"M1 1l5 5 5-5\" stroke=\"%236B6460\" stroke-width=\"1.5\" fill=\"none\" stroke-linecap=\"round\"/></svg>'); background-repeat:no-repeat; background-position:right 1rem center; padding-right:2.5rem; cursor:pointer;">
+                    <option value="">Выберите направление</option>
+                    <option value="uiux">UI/UX дизайн</option>
+                    <option value="branding">Брендинг и айдентика</option>
+                    <option value="prototype">Прототипирование</option>
+                    <option value="system">Дизайн-система</option>
+                    <option value="other">Другое</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label" for="input-budget">Бюджет проекта</label>
+                  <select class="form-input" id="input-budget" name="budget" style="-webkit-appearance:none; background-image:url('data:image/svg+xml,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"8\" viewBox=\"0 0 12 8\"><path d=\"M1 1l5 5 5-5\" stroke=\"%236B6460\" stroke-width=\"1.5\" fill=\"none\" stroke-linecap=\"round\"/></svg>'); background-repeat:no-repeat; background-position:right 1rem center; padding-right:2.5rem; cursor:pointer;">
+                    <option value="">Укажите примерный бюджет</option>
+                    <option value="100-300">100 000 – 300 000 ₽</option>
+                    <option value="300-700">300 000 – 700 000 ₽</option>
+                    <option value="700+">700 000 ₽ и выше</option>
+                    <option value="discuss">Обсудим отдельно</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label" for="input-message">Расскажите о проекте <span style="color:#e05454">*</span></label>
+                  <textarea
+                    class="form-input"
+                    id="input-message"
+                    name="message"
+                    placeholder="Кратко опишите задачу: что нужно сделать, для кого, в какие сроки. Чем подробнее — тем точнее мы оценим."
+                    required
+                    aria-required="true"
+                    data-min-length="20"
+                  ></textarea>
+                  <span class="form-error" role="alert">Минимум 20 символов</span>
+                </div>
+
+                <div class="form-check">
+                  <input type="checkbox" id="input-consent" name="consent">
+                  <label for="input-consent">
+                    Я согласен с <a href="#" style="color:var(--accent); text-decoration:underline;">политикой конфиденциальности</a>
+                    и даю согласие на обработку персональных данных
+                  </label>
+                </div>
+
+                <button type="submit" class="btn btn--primary" style="width:100%; justify-content:center; padding:1rem;">
+                  Отправить заявку
+                  <svg class="btn__arrow" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+                    <path d="M3 9h12M9 3l6 6-6 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </button>
+
+                <p style="font-size:.72rem; color:var(--text-muted); text-align:center; margin-top:1rem;">
+                  Отвечаем в течение 24 часов в рабочие дни
+                </p>
+              </div>
+
+              <!-- Success state -->
+              <div class="form-success" role="status" aria-live="polite">
+                <div class="form-success__icon" aria-hidden="true">✦</div>
+                <h3 class="form-success__title">Заявка отправлена</h3>
+                <p class="form-success__text">
+                  Спасибо! Мы получили ваше сообщение и ответим в течение 24 часов.
+                  Если срочно — пишите в Telegram: @formastudio
+                </p>
+              </div>
+
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Map placeholder -->
+    <div style="border-top:1px solid var(--border); padding:4rem 0;" aria-label="Расположение офиса">
+      <div class="container">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:2rem; flex-wrap:wrap; gap:1rem;">
+          <div>
+            <p class="label label--accent" style="margin-bottom:.5rem;">Офис</p>
+            <h2 style="font-family:'Cormorant',serif; font-size:1.5rem; font-weight:400; color:var(--text);">Москва, Никольская, 10</h2>
+          </div>
+          <a href="https://maps.google.com" target="_blank" rel="noopener" class="btn btn--ghost" aria-label="Открыть на карте">
+            Открыть на карте
+          </a>
+        </div>
+        <div style="
+          height: 280px;
+          background: var(--bg-card);
+          border: 1px solid var(--border);
+          border-radius: 8px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          position: relative;
+          overflow: hidden;
+        ">
+          <!-- Decorative map-like grid -->
+          <div style="
+            position: absolute;
+            inset: 0;
+            background-image:
+              linear-gradient(rgba(237,232,223,.04) 1px, transparent 1px),
+              linear-gradient(90deg, rgba(237,232,223,.04) 1px, transparent 1px);
+            background-size: 40px 40px;
+          "></div>
+          <div style="position:relative; z-index:1; text-align:center;">
+            <div style="
+              width: 14px; height: 14px;
+              background: var(--accent);
+              border-radius: 50%;
+              margin: 0 auto 1rem;
+              box-shadow: 0 0 0 8px rgba(201,168,76,.15);
+            "></div>
+            <p style="font-size:.8rem; color:var(--text-muted);">Никольская ул., 10, Москва</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer role="contentinfo">
+    <div class="container">
+      <div class="footer__top">
+        <div>
+          <a href="index.html" class="nav__logo">FORMA <span></span></a>
+          <p class="footer__brand-text">Студия интерфейсного дизайна и брендинга. Москва, 2017 — сегодня.</p>
+        </div>
+        <div>
+          <p class="footer__col-title">Страницы</p>
+          <ul class="footer__links">
+            <li><a href="cases.html">Кейсы</a></li>
+            <li><a href="services.html">Услуги</a></li>
+            <li><a href="about.html">О студии</a></li>
+            <li><a href="contact.html">Контакты</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer__col-title">Услуги</p>
+          <ul class="footer__links">
+            <li><a href="services.html">UI/UX дизайн</a></li>
+            <li><a href="services.html">Брендинг</a></li>
+            <li><a href="services.html">Дизайн-системы</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer__col-title">Контакты</p>
+          <ul class="footer__links">
+            <li><a href="mailto:hello@formastudio.ru">hello@formastudio.ru</a></li>
+            <li><a href="tel:+74951234567">+7 (495) 123-45-67</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>© 2024 FORMA Studio. Все права защищены.</span>
+        <span>Дизайн с душой, в Москве.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

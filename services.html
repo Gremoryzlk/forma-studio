@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Услуги FORMA Studio: UI/UX дизайн, брендинг и айдентика, прототипирование, дизайн-системы. Профессиональный дизайн для бизнеса.">
+  <meta property="og:title" content="Услуги — FORMA Studio">
+  <meta name="theme-color" content="#080706">
+  <title>Услуги — FORMA Studio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div id="cursor-dot"></div>
+  <div id="cursor-ring"></div>
+
+  <nav class="nav" role="navigation" aria-label="Главное меню">
+    <div class="container">
+      <div class="nav__inner">
+        <a href="index.html" class="nav__logo">FORMA <span></span></a>
+        <ul class="nav__links" role="list">
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="cases.html">Кейсы</a></li>
+          <li><a href="services.html">Услуги</a></li>
+          <li><a href="about.html">О студии</a></li>
+          <li><a href="contact.html">Контакты</a></li>
+        </ul>
+        <a href="contact.html" class="btn btn--ghost nav__cta">Обсудить проект</a>
+        <button class="nav__burger" aria-label="Меню"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="nav__mobile" role="dialog">
+    <a href="index.html">Главная</a>
+    <a href="cases.html">Кейсы</a>
+    <a href="services.html">Услуги</a>
+    <a href="about.html">О студии</a>
+    <a href="contact.html">Контакты</a>
+  </div>
+
+  <main>
+    <!-- Page Hero -->
+    <section class="page-hero">
+      <div class="container">
+        <div class="section__label">
+          <span class="label label--accent">Что мы делаем</span>
+        </div>
+        <h1 class="display" style="max-width:900px">
+          Дизайн как<br>
+          <em>инструмент</em><br>
+          роста.
+        </h1>
+        <p class="section__subtitle" style="margin-top:2rem">
+          Мы решаем бизнес-задачи через дизайн. Каждый проект начинается
+          с понимания цели, а не с нарисованных экранов.
+        </p>
+      </div>
+    </section>
+
+    <!-- Services List -->
+    <section aria-labelledby="services-heading">
+      <div class="container">
+        <div class="section__label reveal">
+          <span class="label label--accent">Направления</span>
+        </div>
+        <h2 id="services-heading" class="h2 reveal reveal-delay-1" style="margin-bottom:0">
+          Полный спектр<br>дизайн-услуг
+        </h2>
+
+        <div class="services-list" role="list">
+
+          <!-- Service 1: UI/UX -->
+          <div class="service-item reveal" role="listitem">
+            <div class="service-item__num">01</div>
+            <div class="service-item__left">
+              <h3 class="service-item__title">
+                UI/UX<br><em>Дизайн</em>
+              </h3>
+            </div>
+            <div class="service-item__right">
+              <p class="service-item__desc">
+                Проектируем интерфейсы, которые решают задачи пользователей
+                и бизнеса одновременно. От аналитики и исследований — до
+                готовых макетов и motion-концепций.
+              </p>
+              <ul class="service-item__features" aria-label="Что входит в услугу">
+                <li>UX-исследования и глубинные интервью</li>
+                <li>Проектирование информационной архитектуры</li>
+                <li>Wireframing и пользовательские сценарии</li>
+                <li>UI-дизайн мобильных и web-приложений</li>
+                <li>Интерактивные прототипы</li>
+                <li>Accessibility-аудит (WCAG)</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Service 2: Branding -->
+          <div class="service-item reveal" role="listitem">
+            <div class="service-item__num">02</div>
+            <div class="service-item__left">
+              <h3 class="service-item__title">
+                Брендинг<br>&amp; <em>Айдентика</em>
+              </h3>
+            </div>
+            <div class="service-item__right">
+              <p class="service-item__desc">
+                Создаём визуальные языки брендов, которые работают на всех
+                носителях и остаются в памяти. От нейминга и платформы бренда
+                до полного брендбука.
+              </p>
+              <ul class="service-item__features">
+                <li>Платформа бренда и стратегия</li>
+                <li>Нейминг и слоган</li>
+                <li>Разработка логотипа и знака</li>
+                <li>Фирменный стиль и цветовые системы</li>
+                <li>Типографическая система</li>
+                <li>Брендбук и гайдлайны</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Service 3: Prototyping -->
+          <div class="service-item reveal" role="listitem">
+            <div class="service-item__num">03</div>
+            <div class="service-item__left">
+              <h3 class="service-item__title">
+                Прото<em>типирование</em>
+              </h3>
+            </div>
+            <div class="service-item__right">
+              <p class="service-item__desc">
+                Создаём кликабельные прототипы, неотличимые от реального
+                продукта. Они позволяют тестировать гипотезы до начала
+                разработки — экономя месяцы и деньги.
+              </p>
+              <ul class="service-item__features">
+                <li>Low-fidelity wireframes для валидации идей</li>
+                <li>High-fidelity прототипы (Figma, ProtoPie)</li>
+                <li>Анимированные переходы и микровзаимодействия</li>
+                <li>Юзабилити-тестирование прототипов</li>
+                <li>Передача разработчикам с документацией</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Service 4: Design Systems -->
+          <div class="service-item reveal" role="listitem">
+            <div class="service-item__num">04</div>
+            <div class="service-item__left">
+              <h3 class="service-item__title">
+                Дизайн-<em>системы</em>
+              </h3>
+            </div>
+            <div class="service-item__right">
+              <p class="service-item__desc">
+                Строим масштабируемые дизайн-системы для команд, которые
+                хотят создавать быстро и консистентно. От аудита
+                существующего продукта до готовой библиотеки компонентов.
+              </p>
+              <ul class="service-item__features">
+                <li>Аудит существующего UI и выявление паттернов</li>
+                <li>Дизайн-токены (цвет, типографика, отступы, тени)</li>
+                <li>Библиотека компонентов в Figma</li>
+                <li>Документация и гайдлайны для команды</li>
+                <li>Интеграция со Storybook и dev-окружением</li>
+                <li>Онбординг и обучение дизайнеров</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Process -->
+    <section class="process-section" aria-labelledby="process-heading">
+      <div class="container">
+        <div class="section__label reveal">
+          <span class="label label--accent">Как мы работаем</span>
+        </div>
+        <h2 id="process-heading" class="h2 reveal reveal-delay-1" style="margin-bottom:0">
+          Прозрачный процесс<br>от брифа до запуска
+        </h2>
+
+        <div class="process-grid">
+          <div class="process-step reveal">
+            <div class="process-step__dot"></div>
+            <div class="process-step__num">01</div>
+            <h3 class="process-step__title">Бриф и погружение</h3>
+            <p class="process-step__text">
+              Изучаем бизнес, аудиторию, конкурентов. Формируем чёткое
+              понимание задачи и измеримые критерии успеха.
+            </p>
+          </div>
+          <div class="process-step reveal reveal-delay-2">
+            <div class="process-step__dot"></div>
+            <div class="process-step__num">02</div>
+            <h3 class="process-step__title">Исследование</h3>
+            <p class="process-step__text">
+              Глубинные интервью, конкурентный анализ, аналитика данных.
+              Дизайн-решения строим на фактах, а не на ощущениях.
+            </p>
+          </div>
+          <div class="process-step reveal reveal-delay-3">
+            <div class="process-step__dot"></div>
+            <div class="process-step__num">03</div>
+            <h3 class="process-step__title">Дизайн и итерации</h3>
+            <p class="process-step__text">
+              Работаем спринтами по 1–2 недели. Показываем промежуточные
+              результаты, собираем обратную связь и быстро итерируем.
+            </p>
+          </div>
+          <div class="process-step reveal reveal-delay-4">
+            <div class="process-step__dot"></div>
+            <div class="process-step__num">04</div>
+            <h3 class="process-step__title">Передача и поддержка</h3>
+            <p class="process-step__text">
+              Передаём аккуратные файлы, документацию и проводим онбординг
+              команды. Остаёмся на связи после запуска.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing Philosophy -->
+    <section style="border-top:1px solid var(--border); padding:clamp(4rem,8vw,8rem) 0;" aria-labelledby="pricing-heading">
+      <div class="container">
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:clamp(3rem,6vw,8rem); align-items:center;">
+          <div>
+            <div class="section__label reveal">
+              <span class="label label--accent">Стоимость</span>
+            </div>
+            <h2 id="pricing-heading" class="h2 reveal reveal-delay-1">
+              Честная цена<br>за честный<br>
+              <em style="font-style:italic;color:var(--accent);">результат.</em>
+            </h2>
+          </div>
+          <div>
+            <p class="reveal" style="font-size:1rem; line-height:1.8; color:var(--text-mid); margin-bottom:1.5rem;">
+              Мы не выставляем прайс-лист. Стоимость каждого проекта
+              формируется индивидуально — на основе объёма задач, сроков
+              и специфики бизнеса.
+            </p>
+            <p class="reveal reveal-delay-1" style="font-size:1rem; line-height:1.8; color:var(--text-mid); margin-bottom:2.5rem;">
+              Средний бюджет на брендинг: от 350 000 ₽.<br>
+              На UI/UX проект: от 280 000 ₽.<br>
+              Дизайн-система: от 500 000 ₽.
+            </p>
+            <div class="reveal reveal-delay-2">
+              <a href="contact.html" class="btn btn--primary">
+                Получить оценку проекта
+                <svg class="btn__arrow" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+                  <path d="M3 9h12M9 3l6 6-6 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta" style="border-top:1px solid var(--border);">
+      <div class="cta__bg"></div>
+      <div class="container">
+        <div class="cta__inner">
+          <h2 class="cta__title reveal">
+            Есть задача?<br>
+            Давайте <em style="font-style:italic;color:var(--accent);">обсудим.</em>
+          </h2>
+          <p class="cta__sub reveal reveal-delay-1">
+            Бесплатная консультация — 30 минут, которые расставят всё по местам.
+          </p>
+          <div class="reveal reveal-delay-2">
+            <a href="contact.html" class="btn btn--primary" style="padding:1rem 2.5rem; font-size:.85rem;">
+              Написать нам
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <div class="container">
+      <div class="footer__top">
+        <div>
+          <a href="index.html" class="nav__logo">FORMA <span></span></a>
+          <p class="footer__brand-text">Студия интерфейсного дизайна и брендинга. Москва, 2017 — сегодня.</p>
+        </div>
+        <div>
+          <p class="footer__col-title">Страницы</p>
+          <ul class="footer__links">
+            <li><a href="cases.html">Кейсы</a></li>
+            <li><a href="services.html">Услуги</a></li>
+            <li><a href="about.html">О студии</a></li>
+            <li><a href="contact.html">Контакты</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer__col-title">Услуги</p>
+          <ul class="footer__links">
+            <li><a href="services.html">UI/UX дизайн</a></li>
+            <li><a href="services.html">Брендинг</a></li>
+            <li><a href="services.html">Дизайн-системы</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer__col-title">Контакты</p>
+          <ul class="footer__links">
+            <li><a href="mailto:hello@formastudio.ru">hello@formastudio.ru</a></li>
+            <li><a href="tel:+74951234567">+7 (495) 123-45-67</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>© 2024 FORMA Studio. Все права защищены.</span>
+        <span>Дизайн с душой, в Москве.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
